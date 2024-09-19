@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/Capture1.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-content">
+        <ul class="menu">
+          <li><a href="#om-mig">Om mig</a></li>
+          <li><a href="#projekter">Projekter</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+
+        <!-- Logo i midten -->
+        <div class="logo">
+          <a href="#home"><img src="img/logo.png" alt="Logo" /></a>
+        </div>
+
+        <!-- Kontakt mig knap til højre -->
+        <div class="contact-button">
+          <a href="#footer">Kontakt mig</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Stor firkant under navbaren -->
+    <div class="big-box">
+      <!-- Profilbillede placeret inde i boksen -->
+      <img
+        src="img/LinkinBillede (trans).png"
+        alt="Profilbillede"
+        class="profile-img"
+      />
+    </div>
+
+    <div class="text-content" id="home">
+      <h1>
+        Mit navn er <br />
+        Nicolaj Pedersen
+      </h1>
+      <h2>Jeg er <span id="typewriter"></span></h2>
+    </div>
+
+    <!-- Projekter sektion -->
+    <section class="projects-section" id="projekter">
+      <h2>Min seneste projekter</h2>
+      <!-- Her kan du tilføje indholdet af dine projekter -->
+    </section>
+
+    <div class="img-slider">
+      <div class="slider-wrapper">
+        <div id="img-container-nova" class="img-container">
+          <img src="img/steno.PNG" alt="Nova" style="opacity: 0.4" />
+          <img src="img/MHK.PNG" alt="Nova" />
+          <img src="img/Nippon.PNG" alt="Nova" style="opacity: 0.4" />
+          <img src="img/Trøjborg.PNG" alt="Nova" />
+          <img src="img/steno.PNG" alt="Nova" />
+          <img src="img/MHK.PNG" alt="Nova" />
+        </div>
+        <a class="prev" id="prev">❮</a>
+        <a class="next" id="next">❯</a>
+      </div>
+    </div>
+    <div class="img-text">
+      <h2 id="img-text">2.Semester Eksamen</h2>
+      <a id="img-link" href="../OliverBoesen MHK-RETTET main MHK/index.html"
+        >Se Projekt</a
+      >
+    </div>
+
+    <section class="colored-section" id="skills">
+      <div class="section-content">
+        <div class="image-text-container">
+          <!-- Billede til venstre -->
+          <div class="image-container">
+            <img src="img/Skillsimg.PNG" alt="Beskrivelse af billede" />
+          </div>
+
+          <!-- Tekst til højre -->
+          <div class="text-container">
+            <h2>Skills</h2>
+            <p>
+              Med stærke færdigheder inden for JavaScript, CSS og HTML kan jeg
+              bygge moderne, brugervenlige weboplevelser fra bunden. Jeg
+              arbejder også i Figma for at skabe stilrene designs, der nemt kan
+              omsættes til kode. Uanset om det handler om funktionalitet eller
+              æstetik, leverer jeg løsninger, der er både flotte og funktionelle
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="om" id="om-mig">
+      <img src="img/linkinbilled2(trans).png" alt="Pladsholder billede" />
+      <div class="text">
+        <h2>Om mig</h2>
+        <p>
+          Jeg er en udadvendt og snakkesalig multimediedesigner-studerende fra
+          Aarhus, der brænder for at kombinere kreativitet med teknologi. Jeg
+          søger en praktikplads inden for SoMe, e-commerce eller frontend, hvor
+          jeg kan bruge mine evner til at skabe engagerende digitale løsninger.
+          Samarbejde er en af mine stærke sider, og jeg elsker at arbejde med
+          andre mennesker for at finde de bedste løsninger. Med en passion for
+          udvikling og kommunikation er jeg klar til at tage det næste skridt i
+          min karriere og bidrage med positiv energi og nytænkning
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer" id="footer">
+      <div class="Footer-overlay">
+        <div class="Footer-content">
+          <div class="Footer-row1">
+            <div class="Footer-column">
+              <h2>Mail</h2>
+              <p>Nicolaj.nip@hotmail.com</p>
+            </div>
+            <div class="Footer-column">
+              <h2>Telefon</h2>
+              <p>+45 50 52 45 89</p>
+            </div>
+            <div class="Footer-column">
+              <h2>FØLG OS</h2>
+              <div class="social-icons">
+                <a
+                  href="https://www.facebook.com/nicolaj.pedersen.589/"
+                  target="_blank"
+                  ><img src="img/facebook.png" alt="Facebook"
+                /></a>
+                <a
+                  href="https://www.instagram.com/nicolaj_pedersen16/"
+                  target="_blank"
+                  ><img src="img/instagram.png" alt="Instagram"
+                /></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"
+                  ><img src="img/linkedin.png" alt="LinkedIn"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="Footer-image">
+            <img src="img/Footerimg.PNG" alt="Footer Billede" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="java.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>
