@@ -33,6 +33,7 @@ function sliderShiftNova(i) {
       "href",
       "../OliverBoesen MHK-RETTET main MHK/index.html"
     );
+    changeLink.setAttribute("target", "_blank");
     imageCountNova2[0].style.opacity = "0.4";
     imageCountNova2[1].style.opacity = "1";
     imageCountNova2[2].style.opacity = "0.4";
@@ -40,21 +41,25 @@ function sliderShiftNova(i) {
     changeText.innerText = "2.Semester Eksamen ";
   } else if (indexNova == 1) {
     changeLink.setAttribute("href", "../UX-UI/index.html");
+    changeLink.setAttribute("target", "_blank");
     imageCountNova2[1].style.opacity = "0.4";
     imageCountNova2[2].style.opacity = "1";
     imageCountNova2[3].style.opacity = "0.4";
     changeText.innerText = "2.Semester Projekt ";
   } else if (indexNova == 2) {
     changeLink.setAttribute("href", "../Eksamen/index.html");
+    changeLink.setAttribute("target", "_blank");
     imageCountNova2[2].style.opacity = "0.4";
     imageCountNova2[3].style.opacity = "1";
     imageCountNova2[4].style.opacity = "0.4";
     changeText.innerText = "1.Semester Eksamen";
   } else if (indexNova == 3) {
     changeLink.setAttribute("href", "../Interaktiv storytelling/index.html");
+    changeLink.setAttribute("target", "_blank");
     imageCountNova2[3].style.opacity = "0.4";
     imageCountNova2[4].style.opacity = "1";
     imageCountNova2[5].style.opacity = "0.4";
     changeText.innerText = "Storytelling Projekt";
+    changeLink.setAttribute("target", "_blank");
   }
 }
